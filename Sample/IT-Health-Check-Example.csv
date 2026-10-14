@@ -1,0 +1,2 @@
+﻿"GeneratedAt","ComputerName","OverallStatus","IssueCount","OperatingSystem","WindowsBuild","CPU","RAM_GB","NetworkStatus","IPv4Address","Gateway","InternetReachable","DNSWorking"
+"22.9.2026. 22:18:23","WS-FINANCE-023","Critical","2","Microsoft Windows 11 Pro","26200","Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz","31,85","Healthy","192.168.10.25","192.168.10.1","True","True"

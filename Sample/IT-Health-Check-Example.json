@@ -1,0 +1,143 @@
+﻿{
+    "GeneratedAt":  {
+                        "value":  "\/Date(1790108303332)\/",
+                        "DisplayHint":  2,
+                        "DateTime":  "utorak, 22. septembar 2026. 22:18:23"
+                    },
+    "ComputerName":  "WS-FINANCE-023",
+    "OverallStatus":  "Critical",
+    "IssueCount":  2,
+    "Inventory":  {
+                      "ComputerName":  "WS-FINANCE-023",
+                      "Manufacturer":  "ASUSTeK COMPUTER INC.",
+                      "Model":  "ROG Strix G531GT",
+                      "SerialNumber":  "DEMO-SERIAL-001",
+                      "LoggedOnUser":  "CONTOSO\\j.smith",
+                      "Domain":  "CONTOSO",
+                      "OperatingSystem":  "Microsoft Windows 11 Pro",
+                      "WindowsVersion":  "10.0.26200",
+                      "WindowsBuild":  "26200",
+                      "Architecture":  "64-bit",
+                      "CPU":  "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+                      "RAM_GB":  31.85,
+                      "LastBootTime":  "\/Date(1789900330501)\/",
+                      "Uptime":  "2 days, 9 hours, 46 minutes",
+                      "Disks":  [
+                                    {
+                                        "Drive":  "C:",
+                                        "SizeGB":  237.47,
+                                        "FreeSpaceGB":  1.64,
+                                        "FreePercent":  0.7
+                                    },
+                                    {
+                                        "Drive":  "D:",
+                                        "SizeGB":  894.24,
+                                        "FreeSpaceGB":  386.03,
+                                        "FreePercent":  43.2
+                                    }
+                                ],
+                      "NetworkAdapters":  [
+                                              {
+                                                  "Description":  "Realtek PCIe GbE Family Controller",
+                                                  "IPv4Address":  "192.168.10.25",
+                                                  "MACAddress":  "00:11:22:33:44:01",
+                                                  "DHCPEnabled":  true,
+                                                  "Gateway":  "192.168.10.1",
+                                                  "DNSServers":  "192.168.10.10"
+                                              },
+                                              {
+                                                  "Description":  "VirtualBox Host-Only Ethernet Adapter",
+                                                  "IPv4Address":  "192.168.10.26",
+                                                  "MACAddress":  "00:11:22:33:44:02",
+                                                  "DHCPEnabled":  false,
+                                                  "Gateway":  null,
+                                                  "DNSServers":  null
+                                              }
+                                          ]
+                  },
+    "DiskHealth":  [
+                       {
+                           "Drive":  "C:",
+                           "SizeGB":  237.47,
+                           "FreeSpaceGB":  1.64,
+                           "FreePercent":  0.7,
+                           "Status":  "Critical"
+                       },
+                       {
+                           "Drive":  "D:",
+                           "SizeGB":  894.24,
+                           "FreeSpaceGB":  386.03,
+                           "FreePercent":  43.2,
+                           "Status":  "Healthy"
+                       }
+                   ],
+    "ServiceHealth":  [
+                          {
+                              "ServiceName":  "wuauserv",
+                              "DisplayName":  "Windows Update",
+                              "Status":  "Stopped",
+                              "StartType":  "Manual",
+                              "Health":  "Attention"
+                          },
+                          {
+                              "ServiceName":  "WinDefend",
+                              "DisplayName":  "Microsoft Defender Antivirus Service",
+                              "Status":  "Running",
+                              "StartType":  "Automatic",
+                              "Health":  "Healthy"
+                          },
+                          {
+                              "ServiceName":  "Dnscache",
+                              "DisplayName":  "DNS Client",
+                              "Status":  "Running",
+                              "StartType":  "Automatic",
+                              "Health":  "Healthy"
+                          },
+                          {
+                              "ServiceName":  "Dhcp",
+                              "DisplayName":  "DHCP Client",
+                              "Status":  "Running",
+                              "StartType":  "Automatic",
+                              "Health":  "Healthy"
+                          },
+                          {
+                              "ServiceName":  "EventLog",
+                              "DisplayName":  "Windows Event Log",
+                              "Status":  "Running",
+                              "StartType":  "Automatic",
+                              "Health":  "Healthy"
+                          }
+                      ],
+    "NetworkHealth":  {
+                          "Adapter":  "Ethernet",
+                          "IPv4Address":  "192.168.10.25",
+                          "Gateway":  "192.168.10.1",
+                          "DNSServers":  "192.168.10.10",
+                          "GatewayReachable":  true,
+                          "InternetReachable":  true,
+                          "DNSWorking":  true,
+                          "Status":  "Healthy"
+                      },
+    "PortHealth":  [
+                       {
+                           "ComputerName":  "google.com",
+                           "Port":  80,
+                           "Protocol":  "TCP",
+                           "Reachable":  true,
+                           "Status":  "Open",
+                           "ResponseTimeMs":  55
+                       },
+                       {
+                           "ComputerName":  "google.com",
+                           "Port":  443,
+                           "Protocol":  "TCP",
+                           "Reachable":  true,
+                           "Status":  "Open",
+                           "ResponseTimeMs":  38
+                       }
+                   ],
+    "Issues":  [
+                   "Disk C: is Critical",
+                   "Service wuauserv: Attention"
+               ]
+}

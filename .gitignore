@@ -1,0 +1,12 @@
+# Generated health-check reports
+Reports/*
+
+# PowerShell backup files
+*.backup.ps1
+
+# Temporary files
+*.tmp
+*.log
+
+# VS Code local settings
+.vscode/
